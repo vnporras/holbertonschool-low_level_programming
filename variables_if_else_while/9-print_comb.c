@@ -9,6 +9,10 @@ int comb;
 for (comb = 0; comb <= 9; comb++)
 {
 putchar(comb + '0');
+if (comb == 9)
+{
+continue;
+}
 putchar(',');
 putchar(' ');
 }

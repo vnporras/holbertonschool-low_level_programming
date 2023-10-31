@@ -9,7 +9,6 @@ char reverse;
 for (reverse = 'z'; reverse >= 'a' ; reverse--)
 {
 putchar (reverse);
-reverse--;
 }
 putchar ('\n');
 return (0);

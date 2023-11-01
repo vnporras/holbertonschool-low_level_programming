@@ -5,7 +5,10 @@
  */
 int main(void)
 {
-char put[20] = "_putchar";
-puts(put);
+char put[25] = "_putchar";
+for ( int p = 0; p <= 20; p++)
+{
+putchar(put [p]);
+}
 return (0);
 }

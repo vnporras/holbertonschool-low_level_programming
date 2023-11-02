@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include "main.h"
+
 /**
  * _islower - This is the function.
  * c - Integer that represents a character.
@@ -8,9 +9,7 @@
  */
 int _islower(int c)
 {
-	char alpha = _putchar(c);
-
-	if (islower(alpha) == 1)
+	if (islower(c) == 1)
 	{
 		return (1);
 	}

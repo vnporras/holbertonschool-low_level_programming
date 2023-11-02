@@ -3,8 +3,8 @@
 #include "main.h"
 
 /**
- * _isalpha - This is the function.
- * @c: Integer that represents a character.
+ * print_sign - This is the function.
+ * @n: Integer that represents a character.
  * Return: Description of the returned value
  */
 int print_sign(int n)

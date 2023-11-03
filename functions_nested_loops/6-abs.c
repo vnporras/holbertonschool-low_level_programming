@@ -3,7 +3,7 @@
 
 /**
  * _abs - This is the function.
- * @ n :parameter.
+ * @n:parameter.
  * Return: Description of the returned value
  */
 

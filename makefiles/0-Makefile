@@ -1,2 +1,2 @@
-school :a.out m.h main.c school.c
-gcc main.c school.c -o school-o school
+all:
+	gcc main.c school.c -o school

@@ -1,5 +1,5 @@
 #nombre de la variable = a cualquier file terminado en .c
-SRC = main.c school.c
+SRC = main.c school.c *.h
 CC = gcc
 OBJ = (SRC:.c=.o) 
 NAME = school

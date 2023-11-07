@@ -2,7 +2,8 @@
 /**
  * _strlen - this is a function
  * @s: Is a variable.
- * @i: variable.
+ * @i: parameter.
+ * return: return parameter..
  */
 
 int _strlen(char *s)

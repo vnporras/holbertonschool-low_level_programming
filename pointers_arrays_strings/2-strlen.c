@@ -2,15 +2,16 @@
 /**
  * _strlen - this is a function
  * @s: Is a variable.
+ * @v: Is a variable.
+ * @v2: variable.
  */
 
 int _strlen(char *s)
 {
-	char s[]= "My first strlen!";
+	char  v[] = *&s;
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		return (i);
-	}
+	for (i = 0; v[i] != '\0'; i++);
+
+	return (v2);
 }

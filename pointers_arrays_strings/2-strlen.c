@@ -3,7 +3,7 @@
  * _strlen - this is a function
  * @s: Is a variable.
  * @v: Is a variable.
- * @v2: variable.
+ * @i: variable.
  */
 
 int _strlen(char *s)
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	for (i = 0; v[i] != '\0'; i++);
 
-	return (v2);
+	return (i);
 }

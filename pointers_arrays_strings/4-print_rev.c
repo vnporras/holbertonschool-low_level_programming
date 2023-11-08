@@ -3,8 +3,6 @@
 /**
  * print_rev - this is a function
  * @s: String to be printed.
- * @i: Is a variable.
- * @v: Is a variable.
  * Return: Description of the returned value
  */
 

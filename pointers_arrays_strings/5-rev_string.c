@@ -6,7 +6,7 @@
  * Return: Description of the returned value
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i = 0;
 	int v, rev;

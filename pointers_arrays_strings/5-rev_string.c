@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - this is a function
+ * rev_string - this is a function
  * @s: Declaration.
  * Return: Description of the returned value
  */

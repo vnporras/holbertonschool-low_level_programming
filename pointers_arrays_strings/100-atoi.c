@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <limits.h>
 
 /**
  * _atoi - this is a function
@@ -31,6 +32,11 @@ int _atoi(char *s)
 		{
 			break;
 		}
+	}
+
+	if (result == INT_MIN)
+	{
+		return (INT_MAX);
 	}
 	return (result * sign);
 }

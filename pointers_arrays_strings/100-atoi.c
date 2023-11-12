@@ -27,6 +27,10 @@ int _atoi(char *s)
 		{
 			result = result * 10 + (s[i] - '0');
 		}
+		if (s[i] == ';')
+		{
+			break;
+		}
 	}
 	return (result * sign);
 }

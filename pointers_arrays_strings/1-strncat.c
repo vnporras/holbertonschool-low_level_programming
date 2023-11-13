@@ -5,7 +5,7 @@
  * *_strncat - this is a function
  * @dest: Pointer destination.
  * @src: Source pointer.
- * @n; Is a character.
+ * @n: Is a character.
  * Return: Description of the returned value.
  */
 
@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	for (s1 = 0; dest[s1] != '\0'; s1++)
 		;
 
-	for (s2 = 0; src[s2] != '\0'&& s2 < n; s2++)
+	for (s2 = 0; src[s2] != '\0' && s2 < n; s2++)
 	{
 		dest[s1] = src[s2];
 

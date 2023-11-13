@@ -12,6 +12,6 @@ void _puts_recursion(char *s)
 
 	for (; s[i] != '\0'; i++)
 	{
-		_putchar(s[i]);
+		putchar(s[i]);
 	}
 }

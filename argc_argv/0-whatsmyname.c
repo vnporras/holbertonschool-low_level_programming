@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*
+ * main - This is a function.
+*/
 int main(int argc, char *argv[])
 {
 	int i;

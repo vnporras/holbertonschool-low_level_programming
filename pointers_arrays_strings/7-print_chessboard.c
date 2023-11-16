@@ -4,7 +4,6 @@
 /**
  * print_chessboard - this is a function
  * @a: Declaration.
- * @n: Declaration.
  * Return: Description of the returned value
  */
 

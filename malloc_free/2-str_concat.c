@@ -13,9 +13,10 @@ char *str_concat(char *s1, char *s2)
 {
 	int s1Copy, s2Copy, s1Size, s2Size;
 	char *sum;
-	if (s1 == NULL)
+
+	if (s1 == "")
 	{
-		return (s1 = "");
+		return (s1 = NULL);
 	}
 	if (s2 == NULL)
 	{

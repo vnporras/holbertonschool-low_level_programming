@@ -30,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = s2Size;
 	}
-	sum = malloc(sizeof(char) * (s1Size + s2Size + 1));
+	sum = malloc(sizeof(char) * (s1Size + n + 1));
 	if (sum == NULL)
 	{
 		return (NULL);
@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		sum[s1Copy] = s1[s1Copy];
 	}
-	for (s2Copy = 0; s2Copy < s2Size; s2Copy++)
+	for (s2Copy = 0; s2Copy < n; s2Copy++)
 	{
 		sum[s1Copy + s2Copy] = s2[s2Copy];
 	}

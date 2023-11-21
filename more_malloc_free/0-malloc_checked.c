@@ -10,6 +10,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *newPointer;
+
 	newPointer = malloc(b);
 
 	if (newPointer == NULL)

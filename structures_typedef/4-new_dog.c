@@ -6,9 +6,7 @@
   * @name: Is a name to dog.
   * @age: Is an age to dog.
   * @owner: Is a pointer to owner.
-  * Return : new_dog is the required value.
-  *
-  * Description: New_dog is a funcion of return contain name, age and owner.
+  * Return: new_dog is the required value.
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {

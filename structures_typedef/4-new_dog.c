@@ -6,13 +6,15 @@
   * @name: Is a name to dog.
   * @age: Is an age to dog.
   * @owner: Is a pointer to owner.
+  * Return : new_dog is the required value.
+  *
+  * Description: New_dog is a funcion of return contain name, age and owner.
 */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
 	int nameSize, nameCopy, ownerSize, ownerCopy;
-	
+
 	new_dog = malloc(sizeof(dog_t));
 	if (new_dog == NULL)
 	{
@@ -23,6 +25,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->name = malloc(sizeof(char) * (nameSize + 1));
 	if (new_dog->name == NULL)
 	{
+		free(new_dog->name);
 		return (NULL);
 	}
 	for (nameCopy = 0; nameCopy <= nameSize; nameCopy++)
@@ -34,6 +37,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->owner = malloc(sizeof(char) * (ownerSize + 1));
 	if (new_dog->owner == NULL)
 	{
+		free(new_dog->owner);
 		return (NULL);
 	}
 	for (ownerCopy = 0; ownerCopy <= ownerSize; ownerCopy++)

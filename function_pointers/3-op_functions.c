@@ -44,7 +44,10 @@ int op_div(int a, int b)
 		printf("Error\n");
 		return (a / 2);
 	}
-	return (a / b);
+	else
+	{
+		return (a / b);
+	}
 }
 /**
 * op_mod - Is a function.
@@ -59,5 +62,8 @@ int op_mod(int a, int b)
 		printf("Error\n");
 		return (a / 2);
 	}
-	return (a % b);
+	else
+	{
+		return (a % b);
+	}
 }

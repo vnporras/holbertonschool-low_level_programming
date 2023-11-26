@@ -39,15 +39,7 @@ int op_mul(int a, int b)
 */
 int op_div(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		return 100;
-	}
-	else
-	{
 		return (a / b);
-	}
 }
 /**
 * op_mod - Is a function.
@@ -57,13 +49,5 @@ int op_div(int a, int b)
 */
 int op_mod(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		return 100;
-	}
-	else
-	{
 		return (a % b);
-	}
 }

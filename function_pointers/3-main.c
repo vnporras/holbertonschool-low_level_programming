@@ -26,6 +26,11 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+	if ((argv[2][0] == '/' || argv[2][0] == '%') && num2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	result = func(num1, num2);
 	printf("%d\n", result);
 	return (0);

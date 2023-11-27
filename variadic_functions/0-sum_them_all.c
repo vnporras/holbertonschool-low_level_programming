@@ -20,10 +20,12 @@ int sum_them_all(const unsigned int n, ...)
 	else
 	{
 		va_list arguments;
+
 		va_start(arguments, n);
 		for (i = 0; i < n; i++)
 		{
 			int newVariable = va_arg(arguments, int);
+
 			sum += newVariable;
 		}
 		va_end(arguments);

@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 	unsigned int i, size, result;
 	int sing;
-	
+
 	sign = 1;
 	result = 0;
 
@@ -33,5 +33,5 @@ int _atoi(char *s)
 			break;
 		}
 	}
-	return (result * sign);
+	return ((int)result * sign);
 }

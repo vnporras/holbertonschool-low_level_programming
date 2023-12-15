@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-* print_len -  name the function of return the number of elements.
+* list_len -  name the function of return the number of elements.
 * @h: Is a poniter of list.
 * Return:  the number of nodes.
 */

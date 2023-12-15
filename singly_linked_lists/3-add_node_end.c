@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-* add_node -  name the function of return the number of elements.
+* add_node_end -  function that adds a new node at the end of a list_t list.
 * @head: Is a poniter of pointer.
 * @str: Is a pointer to string.
 * Return:  the address of the new element, or NULL if it failed.

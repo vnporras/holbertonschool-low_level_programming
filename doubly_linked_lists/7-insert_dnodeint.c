@@ -37,7 +37,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 			return (NULL);
 		}
 		temporal = temporal->next;
-		i++;
+		++i;
 	}
 	newNode->next = temporal->next;
 	newNode->prev = temporal;

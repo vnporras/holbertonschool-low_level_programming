@@ -16,14 +16,14 @@ void print_binary(unsigned long int n)
 		printf("0");
 		return;
 	}
-	while (i <= n)
+	i <<= 63;
+	while ((i & n) == 0)
 	{
-		i = i << 1;
+		i >>= 1;
 	}
-	i = i >> 1;
-	while (i > 0)
+	while (i != 0)
 	{
-		if (n & i)
+		if ((i & n) != 0)
 		{
 			printf("1");
 		}
@@ -31,6 +31,6 @@ void print_binary(unsigned long int n)
 		{
 			printf("0");
 		}
-		i = i >> 1;
+		i >>= 1;
 	}
 }
